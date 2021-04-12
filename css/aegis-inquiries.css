@@ -1,0 +1,28 @@
+/* Aegis Inquiries Stylesheet 
+    Author: Tien Cheng
+    Last Updated: 31/7/2020
+*/
+
+/* Structural Styles*/
+
+section#inquiry-hero-image {
+    background: #0E0B16 url('../graphics/inquiries/inquiry-hero-image.png') center;
+    height: 400px;
+}
+
+@media (max-width: 768px) {
+    /* make hero image shorter on mobile devices */
+    section#inquiry-hero-image {
+        height: 300px;
+    }
+}
+
+/* Form Styles */
+
+textarea {
+    min-height: 200px;
+}
+
+label {
+    margin-top: 1em;
+}

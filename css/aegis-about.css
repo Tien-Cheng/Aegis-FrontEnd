@@ -1,0 +1,73 @@
+/* Aegis About Page Stylesheet 
+    Author: Tien Cheng
+    Last Updated: 25/7/2020
+*/
+
+/* Structural Styles */
+
+section#about-hero-image {
+    background: #0E0B16 url('../graphics/about/about-hero-image.jpg') center;
+    height: 400px;
+}
+
+@media (max-width: 768px) {
+    /* make hero image shorter on mobile devices */
+    section#about-hero-image {
+        height: 300px;
+    }
+}
+
+section#about-cta {
+    background: #0E0B16 url('../graphics/about/about-cta.jpg') center;
+}
+
+div#about-cta-join {
+    margin: 7em 0;
+}
+
+/* Map Styles */
+
+#map-image {
+    width: 100%;
+}
+
+/* Interactive Map Styles */
+
+a.mapArea {
+    position: absolute;
+    /* absolute position relative to the image */
+    cursor: pointer;
+}
+
+a.mapArea:hover, a.mapArea:active, a.mapArea:focus, a.mapArea.active {
+    color: #a239caed;
+    transform: scale(1.2) translateY(-6%);
+    /* make active map marker bigger, but continue to point at same location */
+    transition: transform 0.4s;
+}
+
+a#singapore {
+    top: 49.3%;
+    /* Position Markers By Percentage so that it moves with the image when the window size changes */
+    left: 79.2%;
+}
+
+a#NYC {
+    top: 24%;
+    left: 23%;
+}
+
+a#munich {
+    top: 18%;
+    left: 48.2%;
+}
+
+a#sydney {
+    top: 73%;
+    left: 90%;
+}
+
+a#istanbul {
+    top: 23%;
+    left: 54%;
+}

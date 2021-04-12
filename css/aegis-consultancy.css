@@ -1,0 +1,42 @@
+/* Aegis About Page Stylesheet 
+    Author: Tien Cheng
+    Last Updated: 25/7/2020
+*/
+
+/* Structural Styles*/
+
+section#consult-hero-image {
+    background: #0E0B16 url('../graphics/consultancy/consult-hero-image.jpg');
+    height: 400px;
+}
+
+section#consultancy-services img {
+    margin-bottom: 1em;
+}
+
+@media (max-width: 768px) {
+    /* make hero image shorter on mobile devices */
+    section#consult-hero-image {
+        height: 300px;
+    }
+}
+
+/* Tab Div Styling */
+
+button.tab-link {
+    background: transparent;
+    color: white;
+    height: 3.5em;
+    transition: 0.65s ease-in-out;
+    border: 1px solid #E7DFDD;
+}
+
+button.tab-active, button.tab-link:hover, button.tab-link:focus {
+    background: #4717F6;
+    color: white;
+    outline: none;
+}
+
+div#tab-header-content {
+    height: 18em;
+}

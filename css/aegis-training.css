@@ -1,0 +1,15 @@
+/* Aegis Training Page Stylesheet 
+    Author: Tien Cheng
+    Last Updated: 25/7/2020
+*/
+
+/* Structural Styles*/
+
+section#training-hero-image {
+    background: #0E0B16 url('../graphics/training/training-hero-image.jpg');
+    height: 400px;
+}
+
+section#trainingCourses {
+    min-height: 400px;
+}

@@ -1,0 +1,33 @@
+/* Aegis Careers Page Stylesheet 
+    Author: Tien Cheng
+    Last Updated: 3/8/2020
+*/
+
+/* Structural Styles */
+
+section#careers-hero-image {
+    background: #0E0B16 url('../graphics/careers/careers-hero-image.jpg') center;
+    height: 400px;
+}
+
+@media (max-width: 768px) {
+    /* make hero image shorter on mobile devices */
+    section#careers-hero-image {
+        height: 300px;
+    }
+}
+
+div#benefits img {
+    margin-bottom: 1em;
+    width: 50%;
+}
+
+/* Card Carousel Styles */
+
+div#featuredCards div.card {
+    height: 15em;
+}
+
+div#featuredCards div.card h4.card-title {
+    margin-bottom: 1.7em;
+}

@@ -1,0 +1,23 @@
+/* Aegis Media Page Stylesheet 
+    Author: Tien Cheng
+    Last Updated: 6/8/2020
+*/
+
+/* Structural Styles*/
+
+section#media-hero-image {
+    background: #0E0B16 url('../graphics/media/media-hero-image.jpg') center;
+    height: 400px;
+}
+
+@media (max-width: 768px) {
+    /* make hero image shorter on mobile devices */
+    section#media-hero-image {
+        height: 300px;
+    }
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}

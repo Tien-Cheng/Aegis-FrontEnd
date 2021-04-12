@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="aegis-logo.svg"
+   id="svg923"
+   version="1.1"
+   width="600"
+   height="300"
+   viewBox="0 0 158.7498 93.771901">
+  <metadata
+     id="metadata929">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs927" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg923"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-9"
+     inkscape:window-x="-9"
+     inkscape:cy="181.5"
+     inkscape:cx="512"
+     inkscape:zoom="1.1796875"
+     showgrid="true"
+     id="namedview925"
+     inkscape:window-height="1001"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff">
+    <inkscape:grid
+       id="grid1492"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <path
+     id="path915"
+     d="M 1.3703182,22.960425 26.237489,14.674808 51.10466,22.964178 26.238427,72.700396 Z"
+     stroke="#ffffff"
+     stroke-width="0.83025" />
+  <text
+     style="stroke-width:0.938136"
+     id="text919"
+     y="94.654648"
+     x="176.03529"
+     xml:space="preserve"
+     font-size="61.8888px"
+     font-family="'Agency FB'"
+     fill="#000000"><tspan
+       style="stroke-width:0.938136"
+       id="tspan917"
+       y="70.226532"
+       x="48.147659">AEGIS</tspan></text>
+  <path
+     id="path921"
+     d="M 7.1717513,35.403861 26.237489,31.2573 45.300413,35.401985 M 9.6606261,39.548546 26.237489,35.403861 42.805909,39.54667"
+     stroke="#ffffff"
+     stroke-width="0.83025" />
+</svg>

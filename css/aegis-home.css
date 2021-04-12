@@ -1,0 +1,21 @@
+/* Aegis Home Page Stylesheet 
+    Author: Tien Cheng
+    Last Updated: 24/7/2020
+*/
+
+/* Structural Styles*/
+
+article#why-aegis>div {
+    margin: 10em 0;
+    /* increase space between reasons */
+}
+
+article#why-aegis>div div {
+    margin: auto;
+    /* Horizontally Center text under each row in whyAegis */
+}
+
+.carousel-item {
+    max-height: 89vh !important;
+    /* set max height of carousel img to 89% relative to height of viewport */
+}
